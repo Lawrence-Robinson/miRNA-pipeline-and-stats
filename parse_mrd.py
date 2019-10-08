@@ -2,10 +2,10 @@ import re
 import numpy
 
 # Define desired location of outfile.
-outfile = open('/media/stephen/C065-6FD2/rp2/parsed_mirdeep2_output/mirdeep2_data.csv','w') 
+outfile = open('/media/Lawrence/C065-6FD2/rp2/parsed_mirdeep2_output/mirdeep2_data.csv','w') 
 
 # Specify location of miRDeep2 '.mrd' file.
-path = "/media/stephen/C065-6FD2/rp2/hsa_mirdeep2/mirdeep_runs/run_16_06_2018_t_03_39_21/output.mrd"
+path = "/media/stephen/C065-6FD2/rp2/hsa_mirdeep2/mirdeep_runs/run_16_06_2019_t_03_39_21/output.mrd"
 
 # Write header to outfile
 outfile.write("id,sample,group,count,region,score,exp_seq,pri_seq,mirbase_accession,mirbase_id,related_accession,related_id\n")
