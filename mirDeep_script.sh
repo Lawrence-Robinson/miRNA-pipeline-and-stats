@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# this is a pesudo automated script for the detection of miRNA from raw rnaSEQ data on sheep. this works with 4 experimental groups, however more can be added with small changes to the script, note that the nomenclature of the files is important for the segregation of the files. 
-# the naming protocol for the files is as follows; 'WTCHG_XXXXXX_NNN_1.fastq' don't ask me why but this is the naming protocol. feel free to rename all files before using this and save a lot of time (hindsight I know right) the raw reads can be found in the miRNA file on the big computer under Lorenz becker
-# For anyone coming after me, Please don't be intimidated by all this, bash scripting gets better for you the more you do it, don't put it off like I did and then panic and rush at the last minuite, it's not healthy! if you need a hand with anything, call me on 07881783382
-
 cd /home/lawrence
 project="project"
 mkdir -p ${project}
